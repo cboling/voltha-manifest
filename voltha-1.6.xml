@@ -9,7 +9,7 @@
            remote="opencord"
            sync-j="4"/>
 
-<project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="master"/>
+<project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="c9ca65c54cb24fc49cb082475f2fd1e149aadefc"/>
 <project path="onos-apps/apps/config" name="opencord/config" groups="onos" revision="master"/>
 <project path="onos-apps/apps/dhcpl2relay" name="opencord/dhcpl2relay" groups="onos" revision="master"/>
 <project path="onos-apps/apps/olt" name="opencord/olt" groups="onos" revision="master"/>
