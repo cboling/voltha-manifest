@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="opencord"
+           fetch=".."
+           review="https://gerrit.opencord.org/"
+           revision="voltha-1.6" />
+  <default revision="voltha-1.6"
+           remote="opencord"
+           sync-j="4" />
+
+<project path="onos-apps" name="cord-onos-publisher" groups="onos" revision="master"/>
+<project path="onos-apps/apps/aaa" name="aaa" groups="onos" revision="master"/>
+<project path="onos-apps/apps/config" name="config" groups="onos" revision="master"/>
+<project path="onos-apps/apps/dhcpl2relay" name="dhcpl2relay" groups="onos" revision="master"/>
+<project path="onos-apps/apps/olt" name="olt" groups="onos" revision="master"/>
+<project path="onos-apps/apps/sadis" name="sadis" groups="onos" revision="master"/>
+
+<project path="incubator/voltha" name="voltha" groups="incubation,voltha"/>
+
+</manifest>
