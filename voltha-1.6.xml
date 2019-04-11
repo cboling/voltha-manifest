@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="opencord"
-           fetch="opencord"
+           fetch="../opencord"
            review="https://gerrit.opencord.org/"
            revision="voltha-1.6"/>
   <default revision="voltha-1.6"
