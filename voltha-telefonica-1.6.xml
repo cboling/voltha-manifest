@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cboling"
-           fetch=".."
+           fetch="cboling"
            review="https://gerrit.opencord.org/"
            revision="master"/>
   <default revision="master"
