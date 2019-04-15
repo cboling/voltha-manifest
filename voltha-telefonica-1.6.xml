@@ -9,13 +9,8 @@
            remote="cboling"
            sync-j="2"/>
 
-<!--<project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="c9ca65c54cb24fc49cb082475f2fd1e149aadefc"/>
-<project path="onos-apps/apps/config" name="opencord/config" groups="onos" revision="8d90fb260a56d633317639108f5d11fdf88e5e95"/>
-<project path="onos-apps/apps/dhcpl2relay" name="opencord/dhcpl2relay" groups="b4e3e1043502e6f1433a3bab348d2cca067b5980" revision="master"/>
-<project path="onos-apps/apps/olt" name="opencord/olt" groups="onos" revision="acc5eeba28cb2123796057d9773f8893e35cf731"/>
-<project path="onos-apps/apps/sadis" name="opencord/sadis" groups="onos" revision="1e5ccf51eaccde157976d7ae72f597f9ebfcd64f"/>-->
-
 <project path="onos" name="mwc2019-onos" groups="onos"/>
+<project path="onos-apps" name="mwc2019-onos-apps" groups="onos"/>
 <project path="incubator/voltha" name="mwc2019-voltha" groups="incubation,voltha"/>
 
 </manifest>
