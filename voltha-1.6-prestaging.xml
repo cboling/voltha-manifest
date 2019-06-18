@@ -8,7 +8,7 @@
   <!--  https://bitbucket.org/tibitsw/voltha-1.x/src/refactoring-1.6/-->
   <!--  git clone git@bitbucket.org:tibitsw/voltha-1.x.git-->
 
-  <remote name="voltha-1.x" fetch="https://bitbucket.org/tibitsw"/>
+  <remote name="voltha-1.x" fetch="ssh://git@bitbucket.org/tibitsw"/>
 
 <project path="incubator/voltha" name="voltha-1.x" revision="refactoring-1.6"/>
 
