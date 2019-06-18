@@ -10,7 +10,7 @@
 
   <remote name="voltha-1.x" fetch="ssh://git@bitbucket.org/tibitsw"/>
 
-<project path="incubator/voltha" name="voltha-1.x" revision="refactoring-1.6"/>
+  <project path="incubator/voltha" name="voltha-1.x" remote="voltha-1.x" revision="refactoring-1.6"/>
 
 <!--<project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="c9ca65c54cb24fc49cb082475f2fd1e149aadefc"/>-->
 <!--<project path="onos-apps/apps/config" name="opencord/config" groups="onos" revision="8d90fb260a56d633317639108f5d11fdf88e5e95"/>-->
