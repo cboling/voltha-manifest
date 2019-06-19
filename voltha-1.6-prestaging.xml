@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="opencord" fetch=".." revision="voltha-1.6"/>
+<!--  <remote  name="opencord"-->
+<!--           fetch=".."-->
+<!--           revision="voltha-1.6"/>-->
+
+  <!--  https://bitbucket.org/tibitsw/voltha-1.x/src/refactoring-1.6/-->
+  <!--  git clone git@bitbucket.org:tibitsw/voltha-1.x.git-->
+
   <remote name="voltha-1.x" fetch="ssh://git@bitbucket.org/tibitsw"/>
-  <default revision="voltha-1.6" remote="opencord" sync-j="4"/>
 
   <project path="incubator/voltha" name="voltha-1.x" remote="voltha-1.x" revision="refactoring-1.6"/>
 
-  <project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="c9ca65c54cb24fc49cb082475f2fd1e149aadefc"/>
-  <project path="onos-apps/apps/config" name="opencord/config" groups="onos" revision="8d90fb260a56d633317639108f5d11fdf88e5e95"/>
-  <project path="onos-apps/apps/dhcpl2relay" name="opencord/dhcpl2relay" groups="b4e3e1043502e6f1433a3bab348d2cca067b5980" revision="master"/>
-  <project path="onos-apps/apps/olt" name="opencord/olt" groups="onos" revision="acc5eeba28cb2123796057d9773f8893e35cf731"/>
-  <project path="onos-apps/apps/sadis" name="opencord/sadis" groups="onos" revision="1e5ccf51eaccde157976d7ae72f597f9ebfcd64f"/>
+<!--<project path="onos-apps/apps/aaa" name="opencord/aaa" groups="onos" revision="c9ca65c54cb24fc49cb082475f2fd1e149aadefc"/>-->
+<!--<project path="onos-apps/apps/config" name="opencord/config" groups="onos" revision="8d90fb260a56d633317639108f5d11fdf88e5e95"/>-->
+<!--<project path="onos-apps/apps/dhcpl2relay" name="opencord/dhcpl2relay" groups="b4e3e1043502e6f1433a3bab348d2cca067b5980" revision="master"/>-->
+<!--<project path="onos-apps/apps/olt" name="opencord/olt" groups="onos" revision="acc5eeba28cb2123796057d9773f8893e35cf731"/>-->
+<!--<project path="onos-apps/apps/sadis" name="opencord/sadis" groups="onos" revision="1e5ccf51eaccde157976d7ae72f597f9ebfcd64f"/>-->
 
 </manifest>
